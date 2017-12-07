@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38360EE31FC7C5010068FD74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38360EE21FC7C5010068FD74 /* AppDelegate.m */; };
+		381B69941FD92FDD0007444E /* AppDelegate+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 381B69931FD92FDD0007444E /* AppDelegate+Config.m */; };
+		381B69961FD930D80007444E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 381B69951FD930D80007444E /* AppDelegate.m */; };
+		381B699B1FD932030007444E /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 381B699A1FD932030007444E /* NSArray+Safe.m */; };
+		381B69A31FD934850007444E /* HJTestFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381B69A21FD934850007444E /* HJTestFirstViewController.m */; };
+		381B69A61FD934930007444E /* HJTestSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381B69A51FD934930007444E /* HJTestSecondViewController.m */; };
+		381B69A91FD934A40007444E /* HJTestThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381B69A81FD934A40007444E /* HJTestThirdViewController.m */; };
 		38360EE61FC7C5010068FD74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38360EE51FC7C5010068FD74 /* ViewController.m */; };
 		38360EE91FC7C5010068FD74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38360EE71FC7C5010068FD74 /* Main.storyboard */; };
 		38360EEB1FC7C5010068FD74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38360EEA1FC7C5010068FD74 /* Assets.xcassets */; };
 		38360EEE1FC7C5010068FD74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38360EEC1FC7C5010068FD74 /* LaunchScreen.storyboard */; };
 		38360EF11FC7C5010068FD74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38360EF01FC7C5010068FD74 /* main.m */; };
+		3836BF091FCE62D40010F4B9 /* HJBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3836BF081FCE62D40010F4B9 /* HJBaseTabBarController.m */; };
+		3836BF0C1FCE63100010F4B9 /* HJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3836BF0B1FCE63100010F4B9 /* HJBaseViewController.m */; };
+		38F0A3BC1FD9221D00D08295 /* UIViewController+HJRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F0A3B81FD9221D00D08295 /* UIViewController+HJRootNavigationController.m */; };
+		38F0A3BD1FD9221D00D08295 /* HJRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F0A3B91FD9221D00D08295 /* HJRootNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		381B69921FD92FDD0007444E /* AppDelegate+Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Config.h"; sourceTree = "<group>"; };
+		381B69931FD92FDD0007444E /* AppDelegate+Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Config.m"; sourceTree = "<group>"; };
+		381B69951FD930D80007444E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		381B69991FD932030007444E /* NSArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		381B699A1FD932030007444E /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		381B69A11FD934850007444E /* HJTestFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJTestFirstViewController.h; sourceTree = "<group>"; };
+		381B69A21FD934850007444E /* HJTestFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTestFirstViewController.m; sourceTree = "<group>"; };
+		381B69A41FD934930007444E /* HJTestSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJTestSecondViewController.h; sourceTree = "<group>"; };
+		381B69A51FD934930007444E /* HJTestSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTestSecondViewController.m; sourceTree = "<group>"; };
+		381B69A71FD934A40007444E /* HJTestThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJTestThirdViewController.h; sourceTree = "<group>"; };
+		381B69A81FD934A40007444E /* HJTestThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTestThirdViewController.m; sourceTree = "<group>"; };
 		38360EDE1FC7C5010068FD74 /* HJBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38360EE11FC7C5010068FD74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		38360EE21FC7C5010068FD74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		38360EE41FC7C5010068FD74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		38360EE51FC7C5010068FD74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		38360EE81FC7C5010068FD74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,6 +45,14 @@
 		38360EED1FC7C5010068FD74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38360EEF1FC7C5010068FD74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38360EF01FC7C5010068FD74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3836BF071FCE62D40010F4B9 /* HJBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJBaseTabBarController.h; sourceTree = "<group>"; };
+		3836BF081FCE62D40010F4B9 /* HJBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJBaseTabBarController.m; sourceTree = "<group>"; };
+		3836BF0A1FCE63100010F4B9 /* HJBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJBaseViewController.h; sourceTree = "<group>"; };
+		3836BF0B1FCE63100010F4B9 /* HJBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJBaseViewController.m; sourceTree = "<group>"; };
+		38F0A3B81FD9221D00D08295 /* UIViewController+HJRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HJRootNavigationController.m"; sourceTree = "<group>"; };
+		38F0A3B91FD9221D00D08295 /* HJRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJRootNavigationController.m; sourceTree = "<group>"; };
+		38F0A3BA1FD9221D00D08295 /* UIViewController+HJRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HJRootNavigationController.h"; sourceTree = "<group>"; };
+		38F0A3BB1FD9221D00D08295 /* HJRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJRootNavigationController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +66,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		381B69971FD932030007444E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				381B69981FD932030007444E /* NSArray */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		381B69981FD932030007444E /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				381B69991FD932030007444E /* NSArray+Safe.h */,
+				381B699A1FD932030007444E /* NSArray+Safe.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		381B699C1FD934550007444E /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				381B699D1FD934560007444E /* Controller */,
+				381B699E1FD934560007444E /* Model */,
+				381B699F1FD934560007444E /* View */,
+				381B69A01FD934560007444E /* ViewModel */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		381B699D1FD934560007444E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				381B69A11FD934850007444E /* HJTestFirstViewController.h */,
+				381B69A21FD934850007444E /* HJTestFirstViewController.m */,
+				381B69A41FD934930007444E /* HJTestSecondViewController.h */,
+				381B69A51FD934930007444E /* HJTestSecondViewController.m */,
+				381B69A71FD934A40007444E /* HJTestThirdViewController.h */,
+				381B69A81FD934A40007444E /* HJTestThirdViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		381B699E1FD934560007444E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		381B699F1FD934560007444E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		381B69A01FD934560007444E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		38360ED51FC7C5010068FD74 = {
 			isa = PBXGroup;
 			children = (
@@ -59,9 +148,14 @@
 			isa = PBXGroup;
 			children = (
 				38360EE11FC7C5010068FD74 /* AppDelegate.h */,
-				38360EE21FC7C5010068FD74 /* AppDelegate.m */,
+				381B69951FD930D80007444E /* AppDelegate.m */,
+				381B69921FD92FDD0007444E /* AppDelegate+Config.h */,
+				381B69931FD92FDD0007444E /* AppDelegate+Config.m */,
 				38360EE41FC7C5010068FD74 /* ViewController.h */,
 				38360EE51FC7C5010068FD74 /* ViewController.m */,
+				381B699C1FD934550007444E /* Test */,
+				3836BF021FCE62200010F4B9 /* Base */,
+				381B69971FD932030007444E /* Category */,
 				38360EE71FC7C5010068FD74 /* Main.storyboard */,
 				38360EEA1FC7C5010068FD74 /* Assets.xcassets */,
 				38360EEC1FC7C5010068FD74 /* LaunchScreen.storyboard */,
@@ -69,6 +163,53 @@
 				38360EF01FC7C5010068FD74 /* main.m */,
 			);
 			path = HJBasic;
+			sourceTree = "<group>";
+		};
+		3836BF021FCE62200010F4B9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3836BF031FCE62200010F4B9 /* BaseModel */,
+				3836BF041FCE62200010F4B9 /* BaseView */,
+				3836BF051FCE62200010F4B9 /* BaseViewController */,
+				3836BF061FCE62200010F4B9 /* BaseViewModel */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3836BF031FCE62200010F4B9 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		3836BF041FCE62200010F4B9 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		3836BF051FCE62200010F4B9 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3836BF071FCE62D40010F4B9 /* HJBaseTabBarController.h */,
+				3836BF081FCE62D40010F4B9 /* HJBaseTabBarController.m */,
+				3836BF0A1FCE63100010F4B9 /* HJBaseViewController.h */,
+				3836BF0B1FCE63100010F4B9 /* HJBaseViewController.m */,
+				38F0A3BB1FD9221D00D08295 /* HJRootNavigationController.h */,
+				38F0A3B91FD9221D00D08295 /* HJRootNavigationController.m */,
+				38F0A3BA1FD9221D00D08295 /* UIViewController+HJRootNavigationController.h */,
+				38F0A3B81FD9221D00D08295 /* UIViewController+HJRootNavigationController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		3836BF061FCE62200010F4B9 /* BaseViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +283,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F0A3BC1FD9221D00D08295 /* UIViewController+HJRootNavigationController.m in Sources */,
+				3836BF091FCE62D40010F4B9 /* HJBaseTabBarController.m in Sources */,
+				381B699B1FD932030007444E /* NSArray+Safe.m in Sources */,
+				38F0A3BD1FD9221D00D08295 /* HJRootNavigationController.m in Sources */,
+				381B69A61FD934930007444E /* HJTestSecondViewController.m in Sources */,
 				38360EE61FC7C5010068FD74 /* ViewController.m in Sources */,
+				381B69A91FD934A40007444E /* HJTestThirdViewController.m in Sources */,
+				381B69961FD930D80007444E /* AppDelegate.m in Sources */,
+				381B69941FD92FDD0007444E /* AppDelegate+Config.m in Sources */,
+				3836BF0C1FCE63100010F4B9 /* HJBaseViewController.m in Sources */,
 				38360EF11FC7C5010068FD74 /* main.m in Sources */,
-				38360EE31FC7C5010068FD74 /* AppDelegate.m in Sources */,
+				381B69A31FD934850007444E /* HJTestFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,8 +429,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3KE3ZW2K4;
+				DEVELOPMENT_TEAM = XG3ZCLV9NP;
 				INFOPLIST_FILE = HJBasic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caiyi.HJBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,8 +444,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3KE3ZW2K4;
+				DEVELOPMENT_TEAM = XG3ZCLV9NP;
 				INFOPLIST_FILE = HJBasic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caiyi.HJBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
