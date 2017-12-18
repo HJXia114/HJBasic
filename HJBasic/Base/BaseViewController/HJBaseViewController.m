@@ -7,6 +7,8 @@
 //
 
 #import "HJBaseViewController.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <objc/runtime.h>
 
 @interface HJBaseViewController ()
 

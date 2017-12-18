@@ -20,10 +20,12 @@
 		38360EF11FC7C5010068FD74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38360EF01FC7C5010068FD74 /* main.m */; };
 		3836BF091FCE62D40010F4B9 /* HJBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3836BF081FCE62D40010F4B9 /* HJBaseTabBarController.m */; };
 		3836BF0C1FCE63100010F4B9 /* HJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3836BF0B1FCE63100010F4B9 /* HJBaseViewController.m */; };
+		3847CB671FE3C59D003F6F96 /* HJBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3847CB661FE3C59D003F6F96 /* HJBaseViewModel.m */; };
 		38615BBC1FDE299600425210 /* HJHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 38615BBB1FDE299600425210 /* HJHUD.m */; };
 		38615BBF1FDE301C00425210 /* HJLoadingHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38615BBE1FDE301C00425210 /* HJLoadingHUDView.m */; };
 		38615BC21FDE306C00425210 /* HJCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38615BC11FDE306C00425210 /* HJCircleView.m */; };
 		38615BC61FDE30D200425210 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 38615BC51FDE30D200425210 /* UIColor+Additions.m */; };
+		3867F9D91FE79D1C00BE7A82 /* HJTestWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3867F9D81FE79D1C00BE7A82 /* HJTestWebViewController.m */; };
 		38F0A3BC1FD9221D00D08295 /* UIViewController+HJRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F0A3B81FD9221D00D08295 /* UIViewController+HJRootNavigationController.m */; };
 		38F0A3BD1FD9221D00D08295 /* HJRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F0A3B91FD9221D00D08295 /* HJRootNavigationController.m */; };
 		A43B18AD17D39B368B268230 /* libPods-HJBasic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6395874EFC3D778F8E7D7336 /* libPods-HJBasic.a */; };
@@ -54,6 +56,8 @@
 		3836BF081FCE62D40010F4B9 /* HJBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJBaseTabBarController.m; sourceTree = "<group>"; };
 		3836BF0A1FCE63100010F4B9 /* HJBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJBaseViewController.h; sourceTree = "<group>"; };
 		3836BF0B1FCE63100010F4B9 /* HJBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJBaseViewController.m; sourceTree = "<group>"; };
+		3847CB651FE3C59D003F6F96 /* HJBaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJBaseViewModel.h; sourceTree = "<group>"; };
+		3847CB661FE3C59D003F6F96 /* HJBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJBaseViewModel.m; sourceTree = "<group>"; };
 		38615BBA1FDE299600425210 /* HJHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJHUD.h; sourceTree = "<group>"; };
 		38615BBB1FDE299600425210 /* HJHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJHUD.m; sourceTree = "<group>"; };
 		38615BBD1FDE301C00425210 /* HJLoadingHUDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJLoadingHUDView.h; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 		38615BC11FDE306C00425210 /* HJCircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJCircleView.m; sourceTree = "<group>"; };
 		38615BC41FDE30D200425210 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
 		38615BC51FDE30D200425210 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		3867F9D71FE79D1C00BE7A82 /* HJTestWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJTestWebViewController.h; sourceTree = "<group>"; };
+		3867F9D81FE79D1C00BE7A82 /* HJTestWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTestWebViewController.m; sourceTree = "<group>"; };
 		38F0A3B81FD9221D00D08295 /* UIViewController+HJRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HJRootNavigationController.m"; sourceTree = "<group>"; };
 		38F0A3B91FD9221D00D08295 /* HJRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJRootNavigationController.m; sourceTree = "<group>"; };
 		38F0A3BA1FD9221D00D08295 /* UIViewController+HJRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HJRootNavigationController.h"; sourceTree = "<group>"; };
@@ -121,6 +127,8 @@
 				381B69A51FD934930007444E /* HJTestSecondViewController.m */,
 				381B69A71FD934A40007444E /* HJTestThirdViewController.h */,
 				381B69A81FD934A40007444E /* HJTestThirdViewController.m */,
+				3867F9D71FE79D1C00BE7A82 /* HJTestWebViewController.h */,
+				3867F9D81FE79D1C00BE7A82 /* HJTestWebViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -229,6 +237,8 @@
 		3836BF061FCE62200010F4B9 /* BaseViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3847CB651FE3C59D003F6F96 /* HJBaseViewModel.h */,
+				3847CB661FE3C59D003F6F96 /* HJBaseViewModel.m */,
 			);
 			path = BaseViewModel;
 			sourceTree = "<group>";
@@ -414,6 +424,8 @@
 				38360EE61FC7C5010068FD74 /* ViewController.m in Sources */,
 				381B69A91FD934A40007444E /* HJTestThirdViewController.m in Sources */,
 				38615BBF1FDE301C00425210 /* HJLoadingHUDView.m in Sources */,
+				3867F9D91FE79D1C00BE7A82 /* HJTestWebViewController.m in Sources */,
+				3847CB671FE3C59D003F6F96 /* HJBaseViewModel.m in Sources */,
 				38615BBC1FDE299600425210 /* HJHUD.m in Sources */,
 				381B69961FD930D80007444E /* AppDelegate.m in Sources */,
 				381B69941FD92FDD0007444E /* AppDelegate+Config.m in Sources */,

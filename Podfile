@@ -5,7 +5,8 @@ target 'HJBasic' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
+#  inhibit_all_warnings!
   # Pods for HJBasic
   pod 'MBProgressHUD'
-  pod 'ReactiveCocoa', '=2.5'
+  pod 'ReactiveCocoa', '=2.5', :inhibit_warnings => true
 end

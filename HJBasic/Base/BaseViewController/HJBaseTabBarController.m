@@ -13,6 +13,7 @@
 #import "HJTestFirstViewController.h"
 #import "HJTestSecondViewController.h"
 #import "HJTestThirdViewController.h"
+#import "HJTestWebViewController.h"
 
 @interface HJBaseTabBarController ()
 
@@ -29,12 +30,12 @@
     HJTestFirstViewController *hjVC1 = [[HJTestFirstViewController alloc] init];
     HJTestSecondViewController *hjVC2 = [[HJTestSecondViewController alloc] init];
     HJTestThirdViewController *hjVC3 = [[HJTestThirdViewController alloc]init];
-    
+    HJTestWebViewController *hjVC4 = [[HJTestWebViewController alloc] init];
     NSArray *vcs = nil;
     NSArray *names = nil;
     
-    vcs = @[hjVC1, hjVC2,hjVC3];
-    names = @[@"测试1", @"测试2",@"测试4"];
+    vcs = @[hjVC1, hjVC2,hjVC3,hjVC4];
+    names = @[@"测试1", @"测试2",@"测试3",@"测试4"];
  
     
     [self setupTabBarWithViewControllers:vcs titles:names images:nil selecetedImages:nil];
